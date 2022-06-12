@@ -1,0 +1,20 @@
+{
+    "name": "sakerma/fastitgo",
+    "description": "FastItGo App",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sakerma\\Fastitgo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sofiene Akerma",
+            "email": "akerma.sofiene.12@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/google-mailer": "^5.4"
+    }
+}
